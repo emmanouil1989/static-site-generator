@@ -1,3 +1,3 @@
-This is part of a course. It is a static site generator
-it read markdown from content folder and when you run main script it generate html inside docs folder
-it deploy it to githug pages
+- This is part of a course. It is a static site generator
+- it read markdown from content folder and when you run main script it generate html inside docs folder
+- it deploy it to githug pages
