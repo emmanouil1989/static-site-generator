@@ -4,7 +4,7 @@ from markdown_utils import markdown_to_html_node, extract_title
 import sys
 
 def main():
-    basepath = sys.path[0] or '/'
+    basepath = sys.argv[1] or '/'
     src = "./static"
     dst = "./docs"
     if(os.path.exists(dst)):
