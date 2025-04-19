@@ -6,11 +6,11 @@ import sys
 def main():
     basepath = sys.path[0] or '/'
     src = "./static"
-    dst = "./public"
+    dst = "./docs"
     if(os.path.exists(dst)):
         shutil.rmtree(dst)
     copy_files(src, dst)
-    generate_pages_recursive(basepath,"content", "./template.html", "./public")
+    generate_pages_recursive(basepath,"content", "./template.html", "./docs")
     
 
 def copy_files(src, dst):
